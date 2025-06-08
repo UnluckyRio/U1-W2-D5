@@ -1,1 +1,170 @@
-/* Your styles here */
+/* Header */
+/* Logo */
+.logo {
+  height: 50px;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+.logo-container {
+  height: 80px;
+  background-color: rgb(34, 47, 63);
+}
+/* Navbar */
+.navbar-container {
+  background-color: rgb(54, 71, 87);
+  padding: 0.5em;
+}
+.navbar {
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: white;
+}
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  margin-left: 20px;
+  display: inline-block;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+/* Main */
+main {
+  background-color: rgb(233, 237, 238);
+}
+/* Shop all Holiday Gift Cards */
+.holiday-gift-cards {
+  color: white;
+  background-color: rgb(245, 102, 0);
+  text-align: center;
+  height: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1em;
+}
+/* Holiday Gift Guides */
+.holiday-gift-guides {
+  color: white;
+  background-image: url(../images/bg-image.png);
+  /* background-size: cover; */
+  background-repeat: repeat;
+  background-position: center;
+  text-align: center;
+  height: 15em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1em;
+}
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+.subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+/* Images Containers */
+.images-container {
+  background-color: rgb(255, 255, 255);
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.gallery-item {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.images-container h2 {
+  display: inline-block;
+  font-size: 2em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  margin-bottom: 0.5em;
+  color: black;
+}
+.images-container a {
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  color: rgb(17, 106, 122);
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Banner Images */
+.banner {
+  overflow: hidden;
+  margin-top: 2em;
+  margin-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.description {
+  display: inline-block;
+  font-size: 2em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  margin-bottom: 0.5em;
+  color: black;
+}
+.description-link {
+  display: inline-block;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  color: rgb(17, 106, 122);
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Footer */
+/* Back to the top button */
+.back-to-top {
+  text-align: center;
+  background-color: rgb(54, 71, 87);
+}
+.back-to-top-button {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.5em;
+  padding: 1em;
+  display: inline-block;
+}
+/* Footer Logo */
+.footer-logo-container {
+  height: 150px;
+  background-color: rgb(34, 47, 63);
+  text-align: center;
+  padding-top: 8em;
+}
+.footer-logo {
+  height: 80px;
+}
