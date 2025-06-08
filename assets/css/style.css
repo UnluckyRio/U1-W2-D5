@@ -1,9 +1,17 @@
+/* Main */
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(233, 237, 238);
+}
 /* Header */
 /* Logo */
 .logo {
   height: 50px;
+  margin-top: 0%;
   padding-top: 1em;
-  padding-left: 2em;
+  padding-left: 2.5em;
 }
 .logo-container {
   height: 80px;
@@ -17,9 +25,10 @@
 .navbar {
   justify-content: space-between;
   padding: 10px 20px;
-  color: white;
+  color: whitesmoke;
 }
 .nav-links {
+  color: whitesmoke;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -36,11 +45,12 @@
 }
 /* Main */
 main {
+  margin-top: 0%;
   background-color: rgb(233, 237, 238);
 }
 /* Shop all Holiday Gift Cards */
 .holiday-gift-cards {
-  color: white;
+  color: rgb(233, 237, 238);
   background-color: rgb(245, 102, 0);
   text-align: center;
   height: 2em;
@@ -54,9 +64,7 @@ main {
 .holiday-gift-guides {
   color: white;
   background-image: url(../images/bg-image.png);
-  /* background-size: cover; */
-  background-repeat: repeat;
-  background-position: center;
+  background-size: contain;
   text-align: center;
   height: 15em;
   margin-top: 2em;
@@ -96,7 +104,7 @@ main {
 }
 .gallery-item img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 .images-container h2 {
@@ -120,6 +128,7 @@ main {
   overflow: hidden;
   margin-top: 2em;
   margin-left: 1em;
+  padding-bottom: 1em;
   padding-right: 1em;
   text-align: center;
 }
@@ -131,15 +140,13 @@ main {
 .description {
   display: inline-block;
   font-size: 2em;
-  padding-top: 0.5em;
   padding-left: 0.5em;
-  margin-bottom: 0.5em;
+  padding-bottom: 1em;
   color: black;
 }
 .description-link {
   display: inline-block;
   font-size: 1.2em;
-  margin-top: 1em;
   margin-left: 1em;
   color: rgb(17, 106, 122);
   text-decoration: none;
